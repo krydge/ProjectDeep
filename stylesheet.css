@@ -4,6 +4,7 @@ body{
 }
 main{
     float:center;
+    
 }
 
 * {
@@ -15,3 +16,11 @@ main{
     width: 33.33%; /* three boxes (use 25% for four, and 50% for two, etc) */
     padding: 50px; /* if you want space between the images */
   }
+  header{
+      text-align:center;
+  }
+
+  footer{
+    text-align:center;
+    
+}

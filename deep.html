@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="icon" href="#">
+    <script type="text/javascript" src="cards.js"></script>
 
 </head>
 
@@ -19,14 +20,27 @@
             <h2>Welcome to the Deep</h2>
         </div>
     </header>
-<main>
-    <div class="box"></div>
-    <img src="cave.png">
+    <main>
+        <div class="box"></div>
+        <img src="cave.png">
+        <div class="controls">
+            <button onclick="left()">
+                Left
+            </button>
+            <button onclick="middle()">
+                Middle
+            </button>
+            <button onclick="right()">
+                Right
+            </button>
+        </div>
+
     </main>
 </body>
 
 <footer>
     <p>
+        <button onclick="myfunc()">Start Game</button>
         <h6>This is a K.R.Stubbs Website. To contact K.R.Stubbs email: k.r.stubbs@gmail.com</h6>
     </p>
 

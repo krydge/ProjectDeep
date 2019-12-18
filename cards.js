@@ -91,9 +91,6 @@ class Player extends Card {
         this.weapon = wpn;
     }
 
-    character(){
-        return 
-    }
 }
 
 //weapon adds damage and tpe to a card is used by player
@@ -118,4 +115,25 @@ class Weapon extends Card {
         this.type = tp;
     }
 
+}
+
+function myfunc(){
+    window.alert("You are starting the Deep");
+}
+
+function left(){
+    window.alert("Left");
+}
+
+function right(){
+    window.alert("Right");
+}
+
+function middle(){
+    window.alert("Middle");
+}
+
+function createDeck(){
+
+    
 }

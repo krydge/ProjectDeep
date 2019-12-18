@@ -4,7 +4,6 @@ body{
 }
 main{
     float:center;
-    
 }
 
 * {
@@ -23,4 +22,9 @@ main{
   footer{
     text-align:center;
     
+}
+
+.controls{
+    float:center;
+    text-align: center;
 }
